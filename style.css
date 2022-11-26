@@ -1,0 +1,142 @@
+
+
+nav{
+    
+    background-color:#364b81;
+   padding: 20px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+    
+}
+
+nav a:hover{
+    background-color: #aeb6ca;
+    color: black;
+}
+
+.w3-container{
+    background-color: white;
+}
+
+ ul li{
+    display: inline-block;
+   font-size: 20px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.options ul li{
+display: inline-block;
+}
+
+ #image img{
+    float: right;
+ }
+
+#texter{
+    font-size: 50px;
+}
+
+
+/* styling internally*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+   
+    padding: 40px 30px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: white;
+}
+  
+.column:nth-child(2){
+  background-color: #233b77;
+}
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row{
+    background-color: #364b81;
+  }
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .columner img{ display: none;}
+
+    .columner #smaller{
+        width: 200%;
+    }
+    #texter p{
+        padding-left: 0px;
+    }
+  
+  }
+
+  /* Create three equal columns that floats next to each other */
+.columner {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .rower:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+    #commoner .column{
+        background-color: rgb(70, 66, 66);
+    }
+
+    .closing{
+        
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+    }
+
+
+    footer{
+        background-color: black;
+       
+        padding:10px
+    }
+
